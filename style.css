@@ -1,0 +1,186 @@
+.navbar-nav {
+  font-family: "Oswald", sans-serif;
+  margin-right: 22px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar-brand img {
+  width: 30px;
+}
+
+.github-button {
+  display: flex;
+  align-items: center;
+}
+
+.github-button img {
+  width: 20px;
+  margin-bottom: 5px;
+}
+
+/* Fonts */
+.navbar-brand,
+.display,
+#presentation h2 {
+  font-family: "Oswald", sans-serif;
+}
+
+#presentation .text-wrapper {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.nav-item a {
+  font-weight: 500;
+
+  transition: color 300ms ease-in;
+}
+
+.nav-item a:hover {
+  color: #000;
+}
+
+/* Body Structure */
+.container {
+  margin-top: 32px;
+}
+
+section {
+  padding: 16px;
+  border-radius: 12px;
+
+  background-color: rgb(250, 249, 249);
+}
+
+#presentation h2 {
+  display: block;
+  margin: 16px 0;
+}
+
+.media-wrapper {
+  margin: 0 15px 2px 0;
+
+  float: left;
+}
+
+img.img-thumbnail {
+  width: 200px;
+  height: 200px;
+
+  object-fit: cover;
+}
+
+.bio {
+  text-align: justify;
+}
+
+.icon-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+
+  padding: 12px 0;
+}
+
+.icon-wrapper img {
+  width: 50px;
+
+  transition: transform 0.5s ease-in-out;
+}
+
+.icon-wrapper img:hover {
+    transform: scale(1.1);
+}
+
+.social-media-wrapper {
+  display: flex;
+  gap: 16px;
+}
+
+.social-button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  padding: 8px;
+  border-radius: 0.5rem;
+
+  color: #000;
+  background-color: #fff;
+
+  text-decoration: none;
+  transition: transform 0.2s ease-in;
+}
+
+.social-button img {
+  width: 20px;
+}
+
+.social-button span {
+  color: #000;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.social-button:hover {
+  transform: translateX(10%);
+}
+
+.project-wrapper {
+  padding: 16px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.project-wrapper img {
+  border-radius: 12px;
+}
+
+#projects,
+#contact,
+#faqs {
+  margin-top: 32px;
+}
+
+.input-wrapper {
+  margin: 12px 0;
+}
+
+.display {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.faqs-wrapper {
+  margin: 22px 0;
+}
+
+.accordion-body {
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+
+  margin: 32px 0;
+}
+
+@media screen and (max-width: 700px) {
+  #presentation .media-wrapper img {
+    width: 120px;
+    height: 120px;
+  }
+}

@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <link rel="shortcut icon" href="assets/terminal.svg" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stefan Monteiro</title>
+
+  <!-- My CSS :) -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/terminal.svg" alt="Terminal">
+          <span>
+            Stefan Monteiro
+          </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html#presentation">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faqs">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link github-button" href="https://github.com/realkooper77" target="_blank">
+                <img src="assets/logo-github.svg" alt="GITHUB">
+                <span>My Github</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <section id="presentation">
+
+        <div class="media-wrapper">
+          <img src="assets/Stefan_photo.jpg" class="img-thumbnail" alt="me">
+        </div>
+
+        <div class="text-wrapper">
+
+          <h1>Hi, nice to meet you...</h1>
+
+          <p class="bio">
+            My name is Stefan Monteiro, and I was born on January 8, 2004, in Luanda, Angola. I am a web programmer
+            specializing in Python, C#, and C. In addition to web development, I am also a skilled pentester, constantly
+            working to identify and mitigate security vulnerabilities in various systems. My passion for technology
+            drives me to continuously learn and adapt in the ever-evolving field of cybersecurity and programming.
+          </p>
+        </div>
+
+        <br>
+
+        <h2>My toolkit</h2>
+
+        <div class="icon-wrapper">
+          <img src="assets/logo-html5.svg" alt="HTML">
+          <img src="assets/logo-css3.svg" alt="CSS">
+          <img src="assets/logo-javascript.svg" alt="JAVASCRIPT">
+          <img src="assets/logo-python.svg" alt="PYTHON">
+          <img src="assets/logo-csharp.png" alt="C SHARP">
+          <img src="assets/logo-git.png" alt="GIT">
+          <img src="assets/logo-docker.svg" alt="DOCKER">
+          <img src="assets/logo-github.svg" alt="GITHUB">
+        </div>
+
+        <h2>Social media</h2>
+
+        <div class="social-media-wrapper">
+          <a href="https://web.facebook.com/profile.php?id=100075483556621" class="social-button" target="_blank">
+            <img src="assets/logo-facebook.svg" alt="Facebook">
+            <span>Stefan</span>
+          </a>
+          <a href="https://www.instagram.com/lavhany96" class="social-button" target="_blank">
+            <img src="assets/logo-instagram.svg" alt="instagram">
+            <span>@lavhany96</span>
+          </a>
+        </div>
+
+      </section>
+
+      <section id="projects">
+        <div class="text-wrapper">
+          <h2 class="display">Projects</h2>
+        </div>
+        <div class="project-wrapper">
+          <img src="assets/programmer-programming.gif" alt="Programming bro">
+          <h3>Under development...</h3>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="text-wrapper">
+          <h2 class="display">Contact</h2>
+        </div>
+        <div class="form-wrapper">
+          <div class="mb-3">
+            <div class="input-wrapper">
+              <label for="name">Your name</label>
+              <input type="text" class="form-control">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" id="email" class="form-control" placeholder="name@example.com">
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-dark">Submit</button>
+      </section>
+
+      <section id="faqs">
+        <div class="text-wrapper">
+          <h2 class="display">FAQs</h1>
+        </div>
+        <div class="faqs-wrapper">
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne">
+                  What programming languages do you specialize in?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                  <strong>
+                    I specialize in Python, C#, and C. These languages allow me to develop robust web applications and
+                    perform thorough security assessments.
+                  </strong>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwo">
+                  What services do you offer as a web programmer and pentester?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <strong>
+                    As a web programmer, I offer full-stack development services, including front-end and back-end
+                    development. As a pentester, I conduct comprehensive security audits to identify and address
+                    vulnerabilities in web applications and networks.
+                  </strong>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree">
+                  How did you get started in programming and cybersecurity?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <strong>My journey began with a strong interest in technology during my early years in Luanda, Angola.
+                    I started learning programming languages and quickly developed a passion for web development and
+                    cybersecurity, leading me to specialize in these areas.</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; All rights reserved</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
